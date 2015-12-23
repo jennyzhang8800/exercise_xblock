@@ -1,0 +1,1 @@
+{"knowledge": "缺页中断。", "question": "影响缺页中断率有哪几个主要因素？", "degree_of_difficulty": "1", "source": "网络", "answer": "影响缺页中断率的因素有四个： ① 分配给作业的主存块数多则缺页率低，反之缺页中断率就高。 ② 页面大，缺页中断率低；页面小缺页中断率高。 ③", "type": "question_answer", "options": "  \r\n"}

@@ -1,0 +1,1 @@
+{"knowledge": "物理内存管理。", "question": "请简要分析最优匹配，最差匹配，最先匹配，buddy systemm分配算法的优势和劣势，并尝试提出一种更有效的连续内存分配算法 (w3l1)", "degree_of_difficulty": "1", "source": "网络", "answer": "+ 采分点：说明四种算法的优点和缺点", "type": "question_answer", "options": "  \r\n"}

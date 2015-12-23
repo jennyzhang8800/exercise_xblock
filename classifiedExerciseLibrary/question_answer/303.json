@@ -1,0 +1,1 @@
+{"knowledge": "同步互斥。", "question": "对相关临界区的管理有哪些要求？", "degree_of_difficulty": "1", "source": "网络", "answer": "为了使并发进程能正确地执行，对若干进程共享某一变量（资源）的相关临界区应满足以下三个要求： ①", "type": "question_answer", "options": "  \r\n"}

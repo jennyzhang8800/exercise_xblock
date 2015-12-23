@@ -1,0 +1,1 @@
+{"knowledge": "文件系统。", "question": "在UNIX系统中采用什么方法对空白磁盘块进行组织？", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.位示图 ", " B.空白文件目录 ", " C.链接法 ", " D.成组链法"]}

@@ -1,0 +1,1 @@
+{"knowledge": "同步互斥。", "question": "可以破坏环路等待条件的策略是", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.资源抢占 ", " B.独享分配 ", " C.按序分配 ", " D.共享分配"]}

@@ -1,0 +1,1 @@
+{"knowledge": "虚拟内存管理。", "question": "vma_struct和mm_struct的关系是什么？", "degree_of_difficulty": "1", "source": "网络", "answer": "合法的连续虚拟地址区域、整个进程的地址空间", "type": "question_answer", "options": "  \r\n"}

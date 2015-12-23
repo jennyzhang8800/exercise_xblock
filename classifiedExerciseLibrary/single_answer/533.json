@@ -1,0 +1,1 @@
+{"knowledge": "进程状态与控制。", "question": "“临界区”是指：", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.一组临界资源的集合 ", " B.可共享的一块内存区 ", " C.访问临界资源的一段代码 ", " D.请求访问临界资源的代码"]}

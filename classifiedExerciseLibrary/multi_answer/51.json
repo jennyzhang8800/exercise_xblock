@@ -1,0 +1,1 @@
+{"knowledge": "死锁。", "question": "死锁产生的必要条件包括（） s1", "degree_of_difficulty": "1", "source": "网络", "answer": "ABCD", "type": "multi_answer", "options": [" A.互斥", " A.持有并等待", " A.非抢占", " A.循环等待"]}

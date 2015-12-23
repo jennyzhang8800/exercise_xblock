@@ -1,0 +1,1 @@
+{"knowledge": "死锁。", "question": "死锁发生的必要条件有哪些？", "degree_of_difficulty": "1", "source": "网络", "answer": "发生死锁的必要条件有四点：互斥条件、不可抢占条件、部分分配条件和循环等待条件。 ① 互斥条件：系统中存在一个资源一次只能被一个进程所使用； ②", "type": "question_answer", "options": "  \r\n"}

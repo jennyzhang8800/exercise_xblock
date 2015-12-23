@@ -1,0 +1,1 @@
+{"knowledge": "I/O子系统。", "question": "当输入和输出速率相同或接近时，可引入的缓冲管理为______________ ；当输入和输出速率相差很大时，可引入的缓冲管理为______________\r\n。", "degree_of_difficulty": "1", "source": "网络", "answer": "解释", "type": "fill_in_the_blank", "options": "  \r\n"}

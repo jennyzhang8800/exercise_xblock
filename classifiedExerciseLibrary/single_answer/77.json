@@ -1,0 +1,1 @@
+{"knowledge": "中断、异常与系统调用。", "question": "应用程序引发异常的时候，操作系统可能的反应是（）", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.删除磁盘上的应用程序", " B.重启应用程序", " C.杀死应用程序", " D.修复应用程序中的错误"]}

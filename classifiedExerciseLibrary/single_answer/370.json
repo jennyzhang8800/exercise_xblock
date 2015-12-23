@@ -1,0 +1,1 @@
+{"knowledge": "死锁。", "question": "(20150309_操作系统试题_doc)资源的有序分配策略可以破坏【 】条件。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.互斥使用 ", " B.不剥夺 ", " C.请求和保持 ", " D.环路等待"]}

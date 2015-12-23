@@ -1,0 +1,1 @@
+{"knowledge": "I/O子系统。", "question": "使用户所编制的程序与实际使用的物理设备无关，这是由设备管理的_____ 功能实现的。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.设备独立性 ", " B.设备分配 ", " C.缓冲管理 ", " D.虚拟设备"]}

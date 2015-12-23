@@ -1,0 +1,1 @@
+{"knowledge": "中断、异常与系统调用。", "question": "中断是指当某个事件发生时，系统___________________________________ ，处理完毕后返回断点继续执行。", "degree_of_difficulty": "1", "source": "网络", "answer": "解释", "type": "fill_in_the_blank", "options": "  \r\n"}

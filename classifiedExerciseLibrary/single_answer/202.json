@@ -1,0 +1,1 @@
+{"knowledge": "进程状态与控制。", "question": "在操作系统中用户进程本身启动的唯一状态转换是：", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.调度 ", " B.阻塞 ", " C.时间片到 ", " D.唤醒"]}

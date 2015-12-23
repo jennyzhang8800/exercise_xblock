@@ -1,0 +1,1 @@
+{"knowledge": "同步互斥。", "question": "临界区是指并发进程中访问共享变量的_____ 段。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.管理信息 ", " B.信息存储 ", " C.数据 ", " D.程序"]}

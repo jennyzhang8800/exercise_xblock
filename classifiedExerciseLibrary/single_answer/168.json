@@ -1,0 +1,1 @@
+{"knowledge": "非连续内存分配。", "question": "在请求分页存储管理的页面置换策略中，会产生贝莱迪异态的算法是", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.FIFO ", " B.最佳置换 ", " C.LRU ", " D.最坏适应"]}

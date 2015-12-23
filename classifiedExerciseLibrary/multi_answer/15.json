@@ -1,0 +1,1 @@
+{"knowledge": "物理内存管理。", "question": "描述页管理机制正确的是() s3", "degree_of_difficulty": "1", "source": "网络", "answer": "ABC", "type": "multi_answer", "options": [" A.页表在内存中", " B.页可以是只读的", " C.页可以有特权级", " D.上诉说法都不对"]}

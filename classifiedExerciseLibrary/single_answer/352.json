@@ -1,0 +1,1 @@
+{"knowledge": "中断、异常与系统调用。", "question": "下列选项中，能引起外部中断的事件是", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.键盘输入 ", " B.除数为0 ", " C.浮点运算下溢 ", " D.访存缺页"]}

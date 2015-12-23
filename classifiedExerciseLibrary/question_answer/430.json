@@ -1,0 +1,1 @@
+{"knowledge": "非连续内存分配。", "question": "\"试比较段式存贮管理与页式存贮管理异同？\"", "degree_of_difficulty": "1", "source": "网络", "answer": "分页和分段系统有许多相似之处。两者都采用离散分配方式，且都要通过地址映射机构来实现地址变换。 分页和分段的主要区别：", "type": "question_answer", "options": "  \r\n"}
