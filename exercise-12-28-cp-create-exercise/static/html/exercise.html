@@ -1,0 +1,60 @@
+<div class="exercise_block">
+
+    <div class="view">
+        <div class="head">
+         <br/>
+        <p style="text-align:center;font-weight:bold">Please edit fllowing items to create a new exercise</p>
+        </div>
+        <hr/>
+        <div class="edit_exercise" id="edit_exercise">
+            <div id="type_div" class='box'>
+            <label for="type">type of exercise:</label>
+            <select id="type" class="select">
+                 <option value="single_answer">single answer</option>
+                 <option value="multi_answer">multi answer</option>
+                 <option value="true_false">true or false</option>
+                 <option value="fill_in_the_blank">fill in the blank</option>
+                 <option value="question_answer" selected="selected">question answer</option>
+            </select>
+            </div>
+            <div id="degree_of_difficulty_div" class="box">
+                <label for="degree_of_difficulty">degree of difficulty:</label>
+                <select id="degree_of_difficulty" class="select">
+                   <option value="1" selected="selected">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                </select>
+            </div>
+            <div id="knowledge_div" class="box">
+                <label for="knowledge">knowledge:</label>
+                <input type="text" id="knowledge" class="input"/>
+            </div>
+            <div id="source_div" class='box'>
+               <label for="source">source:</label>
+               <input type="text" id="source" class="input"/>
+            </div>
+            <div id="question_div" class='box'>
+                <label for="question">question:</label>
+                <input type="text" id="question" class="input"/>
+            </div>
+            <div id="options_div" class='box'>
+            </div>
+            <div id="answer_div" class='box'>
+                 <label for="answer">answer:</label>
+                 <input type="text" id="answer" class="input"/>
+             </div>
+            <div id="submit" class='box'>
+                 <input type="button" id="createExercise"  class="btn" value="create exercise"/>
+            </div>
+         </div>
+            <hr/>
+            <div id="message" style="text-align:center">
+               <p id="tips" style="text-align:center;color:red"></p>
+            </div>
+      
+
+
+    </div>
+</div>

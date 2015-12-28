@@ -1,0 +1,33 @@
+/* CSS for PiazzaAllXBlock */
+div{
+margin-top:10px;
+margin-bottom:10px;
+}
+label{
+font-weight:550;
+font-size:16px;
+margin-left:25%;
+}
+.select{
+height:30px;
+text-align:center;}
+p{
+line-height:5px;
+text-align:center;}
+.view{
+background:#e9effb;}
+.box{
+}
+.btn
+{
+background:#2575cf;
+margin:0 auto;
+display:block;
+margin-left:35%;
+}
+.input{
+height:30px;
+text-align:left;
+width:300px;}
+.pMessage{
+font-size:18px;}
