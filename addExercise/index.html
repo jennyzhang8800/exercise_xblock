@@ -1,0 +1,136 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+
+<body  onload="makesnake()">
+
+<table width="800" height="689" border="0" align="center">
+    <form action="" method="post" name="form1">
+        <tr>
+            <td background="exerciseBook.jpg">
+                <table width="800" height="451" border="0">
+                    <tr>
+                        <td width="113" rowspan="3">&nbsp;</td>
+                        <td width="491" height="30">&nbsp;</td>
+                        <td width="182" rowspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td height="175" valign="top">
+                            <table width="100%"  border="0">
+                            <tr>
+                                <td width="30%" class="zi">
+                                    <div align="right">题型：
+                                    </div>
+                                </td>
+                                <td width="70%" align="center">
+                                    <div align="left" id='type_div'>
+                                        <select id='type'>
+                                            <option value ="single_answer">单项选择题</option>
+                                            <option value ="multi_answer">多项选择题</option>
+                                            <option value="true_false">判断题</option>
+                                            <option value="fill_in_the_blank">填空题</option>
+                                            <option value="question_answer">问答题</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right" id='degree_of_difficulty_div'>难度：</div></td>
+                                <td>
+                                    <div align="left">
+                                        <select id='degree_of_difficulty'>
+                                            <option value ="1">1</option>
+                                            <option value ="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right" >知识点：</div></td>
+                                <td>
+                                    <div align="left" id="knowledge_div">
+                                        <input name="knowledge" type="text" size="40"  id="knowledge">
+
+                                    </div>
+                                    <div class="tips"> 知识点之间用逗号隔开</div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="zi"><div align="right">题目来源：</div></td>
+                                <td>
+                                        <div align="left" id="source_div">
+                                            <input name="source" type="text" size="40" id="source">
+                                        </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="zi"><div align="right">题干：</div>
+                                </td>
+                                <td>
+                                        <div align="left" id="question_div">
+                                            <input name="question" type="text" size="40" id="question">
+                                        </div>
+                                </td>
+                            </tr>
+                            <td class="zi"><div align="right">选项：</div></td>
+                                <td>
+                                    <div align="left">
+                                        <input type="radio" name="sex" value="radiobutton" checked>
+                                        <span class="zi">男</span>
+                                        <input type="radio" name="sex" value="radiobutton">
+                                        <span class="zi">                    女</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right">参考答案：</div></td>
+                                <td>
+                                    <div align="left" id="rightAnswerDiv">
+                                        <input name="right_answer" type="text" size="40" id="rightAnswer">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right">备注：</div></td>
+                                <td>
+                                    <div align="left" id="memoDiv">
+                                        <input name="memo" type="text" size="40" id="memo">
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><table width="100%"  border="0">
+                            <tr>
+                                <td width="33%">&nbsp;</td>
+                                <td width="14%"><input type="image" src="1.gif" width="51"
+                                                       height="20" onClick="return submit2();"></td>
+                                <td width="14%"><input type="image" src="2.gif" width="51"
+                                                       height="20" onClick="javascript:reset();"></td>
+                                <td width="22%"><input type="image" src="3.gif" width="51"
+                                                       height="20" onClick="javascript:window.close();"></td>
+                                <td width="17%">&nbsp;</td>
+                            </tr>
+                        </table></td>
+                    </tr>
+                </table></td>
+        </tr>
+ </form>
+</table>
+</body>
+</html>
