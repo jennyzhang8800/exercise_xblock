@@ -1,1 +1,0 @@
-{"knowledge": "中断、异常与系统调用。", "question": "用户程序通过____向操作系统提出访问外部设备的请求", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.I/O指令", " B.系统调用", " C.中断", " D.创建新的进程"]}

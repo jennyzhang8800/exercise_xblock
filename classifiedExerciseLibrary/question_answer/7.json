@@ -1,1 +1,0 @@
-{"knowledge": "同步互斥。", "question": "\"什么叫进程同步和互斥?举例说明\"", "degree_of_difficulty": "1", "source": "网络", "answer": "进程同步是在几个进程合作完成一项任务时，体现各进程相互联系相互协调的关系。例如：A、B两个进程合作通过缓存区输出数据。把两个以上进程不能同时访问临界区的工作", "type": "question_answer", "options": "  \r\n"}

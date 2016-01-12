@@ -1,1 +1,0 @@
-{"knowledge": "处理机调度。", "question": "(20150309_操作系统试题_doc)在分时操作系统中，进程调度经常采用【 】算法。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.先来先服务 ", " B.最高优先权 ", " C.时间片轮转 ", " D.短进程优先"]}

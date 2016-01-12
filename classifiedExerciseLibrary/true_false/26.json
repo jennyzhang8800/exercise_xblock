@@ -1,1 +1,0 @@
-{"knowledge": "进程状态与控制。", "question": "进程发出I/O请求后将被阻塞，直至I/O操作完成。", "degree_of_difficulty": "1", "source": "网络", "type": "true_false", "options": [" A.对 ", " B.错"]}

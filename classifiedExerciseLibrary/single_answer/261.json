@@ -1,1 +1,0 @@
-{"knowledge": "处理机调度。", "question": "多道程序设计是指(　　)", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.在实时系统中并发运行多个程序 ", " B.在分布系统中同一时刻运行多个程序 ", " C.在一台处理机上同一时刻运行多个程序 ", " D.在一台处理机上并发运行多个程序"]}

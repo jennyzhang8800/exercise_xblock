@@ -1,1 +1,0 @@
-{"knowledge": "中断、异常与系统调用。", "question": "给出系统总体上的中断处理过程。", "degree_of_difficulty": "1", "source": "网络", "answer": "CPU每执行完一条指令就去扫描中断寄存器，检查是否有中断发生，若没有中断就继续执行下条指令；若有中断发生就转去执行相应的中断处理程序。中断处理过程可粗略的分", "type": "question_answer", "options": "  \r\n"}

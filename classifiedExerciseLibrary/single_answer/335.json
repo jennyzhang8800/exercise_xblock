@@ -1,1 +1,0 @@
-{"knowledge": "信号量。", "question": "P、V操作是 （ ）", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.两条低级进程通信原语 ", " B.两组不同的机器指令 ", " C.两条系统调用命令 ", " D.两条高级进程通信原语"]}

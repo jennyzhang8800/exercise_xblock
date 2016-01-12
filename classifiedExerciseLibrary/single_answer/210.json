@@ -1,1 +1,0 @@
-{"knowledge": "文件系统。", "question": "设备从磁盘驱动器中读出一块数据的总时间为_____ 。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.等待时间 + 传输时间 ", " B.传输时间 ", " C.查找时间 + 传输时间 ", " D.延迟时间 + 查找时间 + 传输时间"]}

@@ -1,1 +1,0 @@
-{"knowledge": "处理机调度。", "question": "进程由就绪状态转变为执行状态是通过以下那个调度程序实现的", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.作业调度 ", " B.进程调度 ", " C.中级调度 ", " D.驱臂调度"]}

@@ -1,1 +1,0 @@
-{"knowledge": "同步互斥。", "question": "ucore为支持内核中的信号量机制，需用到的支撑机制包括（） s2 底层支撑", "degree_of_difficulty": "1", "source": "网络", "answer": "ABC", "type": "multi_answer", "options": [" A. 处理器调度", " B. 屏蔽中断", " C. 等待队列", " D. 动态内存分配"]}

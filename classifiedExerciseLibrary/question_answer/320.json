@@ -1,1 +1,0 @@
-{"knowledge": "操作系统概述。", "question": "为什么说批处理多道系统能极大地提高计算机系统的工作效率？", "degree_of_difficulty": "1", "source": "网络", "answer": "① 多道作业并行工作，减少了处理器的空闲时间。 ② 作业调度可以合理选择装入主存储器中的作业，充分利用计算机系统的资源。 ③", "type": "question_answer", "options": "  \r\n"}

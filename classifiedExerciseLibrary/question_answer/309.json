@@ -1,1 +1,0 @@
-{"knowledge": "死锁。", "question": "产生死锁的原因是什么？", "degree_of_difficulty": "1", "source": "网络", "answer": "① 系统资源不足； ② 进程推进顺序不合适。 在早期的系统中，由于系统规模较小，结构简单，以及资源分配大多采用静态分配法，使得操作系统死锁问题的严重性未能充", "type": "question_answer", "options": "  \r\n"}

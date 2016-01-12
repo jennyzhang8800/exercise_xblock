@@ -1,1 +1,0 @@
-{"knowledge": "置换算法。", "question": "在一个可变分区存储管理中，最佳适应算法是将空闲区表中的空闲区按_____ 的次序排列。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.地址递增 ", " B.地址递减 ", " C.大小递增 ", " D.大小递减"]}

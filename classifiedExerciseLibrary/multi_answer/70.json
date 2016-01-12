@@ -1,1 +1,0 @@
-{"knowledge": "I/O子系统。", "question": "关于CPU与设备的通信方式包括（） s2", "degree_of_difficulty": "1", "source": "网络", "answer": "ABC", "type": "multi_answer", "options": [" A.轮询", " B.设备中断", " C.DMA", " D.PIPE"]}

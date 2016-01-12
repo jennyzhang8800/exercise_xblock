@@ -1,1 +1,0 @@
-{"knowledge": "I/O子系统。", "question": "磁盘请求以10、22、20、2、40、6、38柱面的次序到达磁盘驱动器。寻道时每个柱面移动需要6ms，计算以下寻道次序和寻道时间。\r\n（1）先来先服务\r\n（2）电梯调度算法（起始向磁道号大的方向移动）\r\n在所有情况下磁头臂起始都位于柱面20号上。", "degree_of_difficulty": "1", "source": "网络", "answer": "    ```", "type": "question_answer", "options": "  \r\n"}

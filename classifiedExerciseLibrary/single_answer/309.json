@@ -1,1 +1,0 @@
-{"knowledge": "文件系统。", "question": "用VI产生的shell文件的性质是（　　　）", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.可立即运行 ", " B.可用chown 使之能运行 ", " C.可用chgrp 使之能运行 ", " D.可用chmod 使之能运行"]}

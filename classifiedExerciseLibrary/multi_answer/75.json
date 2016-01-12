@@ -1,1 +1,0 @@
-{"knowledge": "文件系统。", "question": "适宜于静态重定位的存储管理有（　　　　　）", "degree_of_difficulty": "1", "source": "网络", "answer": "", "type": "multi_answer", "options": [" A.单个分区 ", " B.多个固定分区 ", " C.页式 ", " D.段式 ", " E.多个可变分区"]}

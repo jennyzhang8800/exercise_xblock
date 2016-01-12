@@ -1,1 +1,0 @@
-{"knowledge": "文件系统。", "question": "使用“连访＂方式共享文件是指_____ 。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.不同目录表目指向同一物理入口地址 ", " B.一个表目指向另一个目录表目 ", " C.不同的SFD表目指向同一BFD表目 ", " D.通过工作目录转换为用户文件固有名进行访问"]}

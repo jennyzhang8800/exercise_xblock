@@ -1,1 +1,0 @@
-{"knowledge": "非连续内存分配。", "question": "把内存中空白分区按大小递减链接，可使用哪种分配算法？", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.最佳适应算法 ", " B.最坏适应算法 ", " C.首次适应算法 ", " D.下次适应算法"]}

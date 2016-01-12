@@ -1,1 +1,0 @@
-{"knowledge": "信号量。", "question": "\"设P,Q,R共享一个缓冲区,P,Q构成一对生产者-消费者,R既为生产者又为消费?者。使用P,V 实现其同步。\"", "degree_of_difficulty": "1", "source": "网络", "answer": "Semaphore 方法 设置三个信号量：full(itemCounter)、empty(vacancyCounter)和mutex。", "type": "question_answer", "options": "  \r\n"}

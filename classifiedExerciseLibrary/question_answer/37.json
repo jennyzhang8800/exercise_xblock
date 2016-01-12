@@ -1,1 +1,0 @@
-{"knowledge": "同步互斥。", "question": "桌上有一个空盘子，只允许放一个水果。爸爸可以向盘中放苹果，也可以向盘中放桔子，儿子专等吃盘中的桔子，女儿专等吃盘中的苹果。规定当盘空时，一次只能放一只水果，\r\n请用PV操作实现爸爸、儿子、女儿3个并发进程的同步。", "degree_of_difficulty": "1", "source": "网络", "answer": "    ```", "type": "question_answer", "options": "  \r\n"}

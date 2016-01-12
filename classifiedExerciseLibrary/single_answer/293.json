@@ -1,1 +1,0 @@
-{"knowledge": "I/O子系统。", "question": "用户程序中的I／O操作实际是由（　　　）完成。", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.程序设计语言 ", " B.标准库程序 ", " C.编译系统 ", " D.操作系统"]}

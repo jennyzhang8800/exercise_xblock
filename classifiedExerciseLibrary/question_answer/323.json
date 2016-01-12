@@ -1,1 +1,0 @@
-{"knowledge": "进程状态与控制。", "question": "UNIX系统中的优先权和优先数有什么关系？如何确定进程的优先权和优先数？", "degree_of_difficulty": "1", "source": "网络", "answer": "UNIX中每个进程都有一个优先数，就绪进程能否占用处理器的优先权取决于进程的优先数，优先数越小则优先权越高。 UNIX以动态方式确定优先权，如核心的进程优先", "type": "question_answer", "options": "  \r\n"}

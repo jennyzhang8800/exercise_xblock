@@ -1,1 +1,0 @@
-{"knowledge": "文件系统。", "question": "在BFD和SFD分开的系统中，SFD中应记录下列哪类信息？", "degree_of_difficulty": "1", "source": "网络", "type": "single_answer", "options": [" A.文件名 ", " B.文件长度 ", " C.存取权限 ", " D.物理存储位置"]}

@@ -1,1 +1,0 @@
-{"knowledge": "死锁。", "question": "试说明资源的静态分配策略能防止死锁的原因。", "degree_of_difficulty": "1", "source": "网络", "answer": "资源静态分配策略要求每个过程在开始执行前申请所需的全部资源，仅在系统为之分配了所需的全部资源后，该进程才开始执行。", "type": "question_answer", "options": "  \r\n"}

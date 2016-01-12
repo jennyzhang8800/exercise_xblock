@@ -1,1 +1,0 @@
-{"knowledge": "I/O子系统。", "question": "DMA是指允许（ ）和（ ）间直接交换数据的设备，在DMA时 必须设置地址寄 存器，用于存放（ ）.", "degree_of_difficulty": "1", "source": "网络", "answer": "解释", "type": "fill_in_the_blank", "options": "  \r\n"}
