@@ -3,11 +3,24 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript " src="jquery-1.11.3.min.js "></script>
+    <script type="text/javascript " src="exercise1.js "></script>
+
 
 </head>
 
 <body  onload="makesnake()">
+<div class='nav'>
+    <table width=100%  height='30px' border='1' bgcolor ='#79CDCD' align="center">
+        <tr>
+            <td class="nav1" align="center" id="addNew">添加一个新练习题</td>
+            <td class="nav1" align="center" id="Modify">修改已有的练习题</td>
 
+        </tr>
+
+    </table>
+
+</div>
 <table width="800" height="689" border="0" align="center">
     <form action="" method="post" name="form1">
         <tr>
@@ -83,9 +96,10 @@
                                         </div>
                                 </td>
                             </tr>
-                            <td class="zi"><div align="right">选项：</div></td>
+                                <tr id="optionTr">
+                            <td class="zi"  ><div align="right">选项：</div></td>
                                 <td>
-                                    <div align="left">
+                                    <div align="left" id="options">
                                         <input type="radio" name="sex" value="radiobutton" checked>
                                         <span class="zi">男</span>
                                         <input type="radio" name="sex" value="radiobutton">
@@ -93,7 +107,7 @@
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr id="answerTr">
                                 <td class="zi"><div align="right">参考答案：</div></td>
                                 <td>
                                     <div align="left" id="rightAnswerDiv">
@@ -105,7 +119,7 @@
                                 <td class="zi"><div align="right">备注：</div></td>
                                 <td>
                                     <div align="left" id="memoDiv">
-                                        <input name="memo" type="text" size="40" id="memo">
+                                        <input name="memo" type="text" size="40" id="explain">
                                     </div>
                                 </td>
                             </tr>
@@ -115,20 +129,23 @@
                     </td>
                     </tr>
                     <tr>
-                        <td valign="top"><table width="100%"  border="0">
+                        <td valign="top">
+                            <table width="100%"  border="0">
                             <tr>
                                 <td width="33%">&nbsp;</td>
                                 <td width="14%"><input type="image" src="1.gif" width="51"
-                                                       height="20" onClick="return submit2();"></td>
+                                                       height="20" id="submit"></td>
                                 <td width="14%"><input type="image" src="2.gif" width="51"
                                                        height="20" onClick="javascript:reset();"></td>
                                 <td width="22%"><input type="image" src="3.gif" width="51"
                                                        height="20" onClick="javascript:window.close();"></td>
                                 <td width="17%">&nbsp;</td>
                             </tr>
-                        </table></td>
+                        </table>
+                        </td>
                     </tr>
-                </table></td>
+                </table>
+            </td>
         </tr>
  </form>
 </table>
