@@ -1,3 +1,4 @@
+
 /* Javascript for PiazzaFeedXBlock. */
 function ExerciseXBlock(runtime, element) {
     $('#navBar td').click(function(){
@@ -232,11 +233,35 @@ function ExerciseXBlock(runtime, element) {
         var answer=jsonObj["answer"];
         var options=jsonObj["options"];
         var question=jsonObj["question"];
-        $('#modifyExerciseView').empty();
+        $('#modifyExercise').empty();
         alert("type:"+type+",knowledge:"+knowledge+",degree_of_difficulty:"+degree_of_difficulty+",explain:"+explain+",source:"+source+",answer:"+answer+",options:"+options);
 
-        $('#modifyExerciseView').append('<table width="100%" height="500" border="0" align="center"><form action="" method="post" name="form2"><tr><td ><table width="100%" height="451" border="0"><tr><td width="10%" rowspan="3">&nbsp;</td><td width="80%" height="30">&nbsp;</td><td width="10%" rowspan="3">&nbsp;</td></tr><tr><td height="175" width="100%" valign="top"><table width="100%"  border="0"><tr id="modifyTypeTr"></tr><tr id="modifyDegreeTr"></tr><tr id="modifyKnowledgeTr"></tr><tr id="modifySourceTr"><td>joweowjewojf</td></tr><tr id="modifyQuestionTr"></tr><tr id="modifyOptionsTr"></tr><tr id="modifyAnswerTr"></tr><tr id="modifyExplainTr"></tr></table></td></tr><tr><td valign="tops"><table width="100%" border="0"><tr><td width="33%">&nbsp;</td><td width="20%"><input type="button" id="save" value="SAVE" width="60" height="20"/></td><td width="20%">&nbsp;</td><td width="17%">&nbsp;</td></tr></table> </td> </tr></table></td></tr></form><table>');
-      
+        $('#modifyExercise').append('<table width="100%" height="500" border="0" align="center"><form action="" method="post" name="form2"><tr><td ><table width="100%" height="451" border="0"><tr><td width="10%" rowspan="3">&nbsp;</td><td width="80%" height="30">&nbsp;</td><td width="10%" rowspan="3">&nbsp;</td></tr><tr><td height="175" width="100%" valign="top"><table width="100%"  border="0"><tr id="modifyTypeTr"></tr><tr id="modifyDegreeTr"></tr><tr id="modifyKnowledgeTr"></tr><tr id="modifySourceTr"></tr><tr id="modifyQuestionTr"></tr><tr id="modifyOptionsTr"></tr><tr id="modifyAnswerTr"></tr><tr id="modifyExplainTr"></tr></table></td></tr><tr><td valign="tops"><table width="100%" border="0"><tr><td width="33%">&nbsp;</td><td width="20%"><input type="button" id="save" value="SAVE" width="60" height="20"/></td><td width="20%">&nbsp;</td><td width="17%">&nbsp;</td></tr></table> </td> </tr></table></td></tr></form><table>');
+        $('#modifyTypeTr').append(' <td width="30%" class="zi"><div align="right">Type of Question</div></td><td width="70%" align="center"><div align="left" id="modifyType_div"><select id="modifyType"><option value ="single_answer">single_answer</option><option value ="multi_answer">multi_answer</option><option value="true_false">true_false</option><option value="fill_in_the_blank">fill_in_the_blank</option><option value="question_answer">question_answer</option></select></div></td>');
+        $('#modifyDegreeTr').append('<td class="zi"><div align="right">Degree of Difficulty</div></td><td><div align="left"><select id="modify_degree_of_difficulty"><option value ="1">1</option><option value ="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></div></td>');
+        $('#modifyKnowledgeTr').append('<td class="zi"><div align="right" >Knowledge</div></td><td><div align="left"><input name="knowledge" type="text" size="40"  id="modifyKnowledge"></div><div class="tips" style="font-size: 10px;color: red"> split with ","</div></td>');
+        $('#modifySourceTr').append('<td class="zi"><div align="right">Source of Exercise</div></td><td><div align="left" ><input name="source" type="text" size="40" id="modifySource"></div></td>');
+        $('#modifyQuestionTr').append('<td class="zi"><div align="right">Question</div></td><td><div align="left" ><input name="question" type="text" size="40" id="modifyQuestion"></div></td>');
+        $('#modifyOptionsTr').append('  <td class="zi"  ><div align="right">Options</div></td><td><div align="left" ><input name="options" type="text" size="40" id="modifyOptions"></div></td>');
+        $('#modifyAnswerTr').append('<td class="zi"><div align="right">Right Answer</div></td><td><div align="left" ><input name="right_answer" type="text" size="40" id="modifyAnswer"></div></td>');
+        $('#modifyExplainTr').append('<td class="zi"><div align="right">Explain or Memo</div></td><td><div align="left" ><input name="memo" type="text" size="40" id="modifyExplain"></div></td>');
+
+        $("#modifyType  option[value="+type+"] ").attr("selected",true);
+        $("#modify_degree_of_difficulty  option[value="+degree_of_difficulty+"] ").attr("selected",true);
+
+        $('#modifyKnowledge').val(knowledge);
+        $('#modifySource').val(source);
+        $('#modifyQuestion').val(question);
+        $('#modifyOptions').val(options);
+        $('#modifyAnswer').val(answer);
+        $('#modifyExplain').val(explain);
+
+        if(type=="fill_in_the_blank"){
+            $('#modifyOptionsTr').remove();
+        }
+        else if(type=="question_answer"){
+            $('#modifyOptionsTr').remove();
+        }
     }
 
     $("#modify",element).click(function(eventObject){
