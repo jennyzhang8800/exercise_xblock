@@ -1,0 +1,141 @@
+﻿<div class="nav">
+    <table id="navBar" width='100%' height='25px' border='1' bgcolor='#79CDCD' align='center'>
+     <tr>
+       <td id="addNew" align='center'>add New Exercise</td>
+       <td id="Modify" align='center'>modify Exercise</td>
+     </tr>
+    </table>
+  
+</div>
+<div id="modifyExercise" aligh='center'>
+   <br/>
+   please input question number:
+   <input id="qNumber" type="text" style="width:150px;height:40px;"/>
+   <input id="modify" type="button" value="modify" style="width:100px;height:40px"/>
+</div>
+<div id="addNewExercise">
+<table width="100%" height="500" border="0" align="center">
+    <form action="" method="post" name="form1">
+        <tr>
+            <td>
+                <table width="100%" height="451" border="0">
+                    <tr>
+                        <td width="10%" rowspan="3">&nbsp;</td>
+                        <td width="80%" height="30">&nbsp;</td>
+                        <td width="10%" rowspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td height="175" width="100%" valign="top">
+                            <table  width="100%" border="0">
+                            <tr>
+                                <td width="20%" class="zi">
+                                    <div align="right">题型：
+                                    </div>
+                                </td>
+                                <td width="80%" align="center">
+                                    <div align="left" id='type_div'>
+                                        <select id='type' style="width:150px">
+                                            <option value="please choose">please choose</option>
+                                            <option value ="single_answer">单项选择题</option>
+                                            <option value ="multi_answer">多项选择题</option>
+                                            <option value="true_false">判断题</option>
+                                            <option value="fill_in_the_blank">填空题</option>
+                                            <option value="question_answer">问答题</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right" id='degree_of_difficulty_div'>难度：</div></td>
+                                <td>
+                                    <div align="left">
+                                        <select id='degree_of_difficulty' style="width:150px">
+                                            <option value ="1">1</option>
+                                            <option value ="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right" >知识点：</div></td>
+                                <td>
+                                    <div align="left" id="knowledge_div">
+                                        <input name="knowledge" type="text" size="40"  id="knowledge" style="width:80%">
+
+                                    </div>
+                                    <div class="tips"> 知识点之间用逗号隔开</div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="zi"><div align="right">题目来源：</div></td>
+                                <td>
+                                        <div align="left" id="source_div">
+                                            <input name="source" type="text" size="40" id="source" style="width:80%">
+                                        </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="zi"><div align="right">题干：</div>
+                                </td>
+                                <td>
+                                        <div align="left" id="question_div">
+                                            <input name="question" type="text" size="40" id="question" style="height:70px;width:80%">
+                                        </div>
+                                </td>
+                            </tr>
+                            <tr id="optionTr">
+                            <td class="zi"><div align="right">选项：</div></td>
+                                <td>
+                                    <div id='options' align="left">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="answerTr">
+                                <td class="zi"><div align="right">参考答案：</div></td>
+                                <td>
+                                    <div align="left" id="rightAnswerDiv">
+                                        <input name="right_answer" type="text" size="40" id="rightAnswer" style="width:80%">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="zi"><div align="right">备注：</div></td>
+                                <td>
+                                    <div align="left" id="memoDiv">
+                                        <input name="memo" type="text" size="40" id="explain" style="width:80%">
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><table width="100%"  border="0">
+                            <tr>
+                                <td width="33%">&nbsp;</td>
+                                <td width="20%"><input type="button" id="save" value="SAVE" width="60" height="20"/></td>
+                                <td width="20%"><input type="button" id="reset" value="RESET" width="60"
+                                                       height="20" ></td>
+                                <td width="17%">&nbsp;</td>
+                            </tr>
+                        </table></td>
+                    </tr>
+                </table></td>
+        </tr>
+
+ </form>
+</table>
+ <hr/>
+                        <div id="tips"></div>
+                        <div align="center" id="message"></div>
+                      
+</div>
